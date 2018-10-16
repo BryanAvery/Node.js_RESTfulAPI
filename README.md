@@ -1,10 +1,9 @@
-# REST HUb
+# RESTful API
 
-An app demonstrating simple API implementation with NodeJs, Express and MongoDb
-
-The companion tutorial on building can be found here <b>How To Build Simple RESTful API With Node.js, Express.js And MongoDb</b> 
+This is an app demonstrating simple API implementation with Node.js, Express and MongoDb
 
 The `api` uri preceeds all API endpoints and the following endpoints are currently available
+
 * GET `/api/contacts`
 * POST `/api/contacts`
 * GET `/api/contacts/:id`
