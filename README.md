@@ -2,7 +2,7 @@
 
 This is an app demonstrating simple API implementation with Node.js, Express and MongoDb
 
-The `api` uri preceeds all API endpoints and the following endpoints are currently available
+The `api` uri preceds all API endpoints and the following endpoints are currently available
 
 * GET `/api/contacts`
 * POST `/api/contacts`
