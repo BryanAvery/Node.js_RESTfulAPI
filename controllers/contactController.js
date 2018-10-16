@@ -40,7 +40,6 @@ exports.new = function (req, res) {
     });
 };
 
-
 // Handle view contact info
 exports.view = function (req, res) {
     Contact.findById(req.params.contact_id, function (err, contact) {
@@ -78,7 +77,6 @@ exports.update = function (req, res) {
         });
     });
 };
-
 
 // Handle delete contact
 exports.delete = function (req, res) {
