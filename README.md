@@ -2,7 +2,7 @@
 
 An app demonstrating simple API implementation with NodeJs, Express and MongoDb
 
-The companion tutorial on building can be found here <b>How To Build Simple RESTful API With NodeJs, ExpressJs And MongoDb</b> 
+The companion tutorial on building can be found here <b>How To Build Simple RESTful API With Node.js, Express.js And MongoDb</b> 
 
 The `api` uri preceeds all API endpoints and the following endpoints are currently available
 * GET `/api/contacts`
@@ -12,11 +12,8 @@ The `api` uri preceeds all API endpoints and the following endpoints are current
 * PATCH `/api/contacts/:id`
 * DELETE `/api/contacts/:id`
 
-The live app is available on heroku here
+The live UI driven app version is available on heroku here, which is using these RESTful API endpoints
 https://arcane-spire-97294.herokuapp.com
 
 
-Get in Touch
-===============
-
-I am available on twitter, facebook, linkedin, gmail @dinyangetoh
+This is a adapted version from @dinyangetoh
