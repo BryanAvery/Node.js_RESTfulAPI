@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 // Connect to Mongoose and set connection variable
-mongoose.connect('mongodb://localhost/resthub?useNewUrlParser=true');
+mongoose.connect('mongodb://bryan:5wswv27bTrftKzHUBu7M3RaFJqVF9UUj@cluster0-shard-00-00-zkbzv.azure.mongodb.net:27017,cluster0-shard-00-01-zkbzv.azure.mongodb.net:27017,cluster0-shard-00-02-zkbzv.azure.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true');
 
 // Setup server port
 var port = process.env.PORT || 8080;
